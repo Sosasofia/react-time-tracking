@@ -1,0 +1,86 @@
+.Profile-card {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+}
+
+.Profile-content {
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  height: 120px;
+}
+
+.Profile-content img {
+  width: 70px;
+  height: 70px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.textContainer small {
+  margin-left: 0;
+  font-weight: 400;
+}
+
+.textContainer p {
+  font-size: 1.4em;
+  color: white;
+}
+
+.Timeframes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 30px;
+}
+
+.Timeframes a {
+  cursor: pointer;
+  color: hsl(236, 100%, 87%);
+}
+
+.Timeframes .selected {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 800px) {
+  .Profile-card {
+    max-width: 280px;
+    height: 100%;
+  }
+
+  .Profile-content {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 70%;
+  }
+
+  .textContainer {
+    margin: 0;
+  }
+
+  .Profile-content p {
+    font-size: 2.8em;
+  }
+
+  .Timeframes {
+    height: 30%;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
