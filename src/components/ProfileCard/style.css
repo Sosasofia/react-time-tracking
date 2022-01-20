@@ -65,8 +65,13 @@
   .Profile-content {
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-around;
     height: 70%;
+  }
+
+  .Profile-content img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 45px;
   }
 
   .textContainer {
@@ -74,7 +79,7 @@
   }
 
   .Profile-content p {
-    font-size: 2.8em;
+    font-size: 2.5em;
   }
 
   .Timeframes {
