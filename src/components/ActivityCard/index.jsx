@@ -4,7 +4,7 @@ import './style.css'
 export default function ActivityCard({ title, current, previous, timeframe }) {
 
     const activity = title.split(" ").join("")
-    const icon = '/images/icon-' + activity + '.svg'
+    const icon = 'public/images/icon-' + activity + '.svg'
 
     const colors = {
         'Work': 'hsl(15, 100%, 70%)',
