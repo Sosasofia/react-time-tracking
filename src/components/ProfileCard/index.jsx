@@ -7,7 +7,7 @@ export default function ProfileCard({ name, timeframe, change }) {
     return (
         <div className="Profile-card">
             <div className="Profile-content">
-                <img src="src/assets/images/image-jeremy.png" alt="" />
+                <img src="/public/images/image-jeremy.png" alt="" />
                 <div className="textContainer">
                     <small>Report for </small>
                     <p>{name}</p>
